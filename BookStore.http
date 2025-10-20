@@ -1,0 +1,11 @@
+@BookStore_HostAddress = http://localhost:5258
+
+GET {{BookStore_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{BookStore_HostAddress}}/todos/1
+Accept: application/json
+
+###
